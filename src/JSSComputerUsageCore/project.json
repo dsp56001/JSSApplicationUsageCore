@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "CsvHelper": "2.16.3",
+    "Microsoft.Extensions.Configuration": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "Newtonsoft.Json": "9.0.1",
+    "System.Net.Requests": "4.0.11"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+
+  "runtimes": {
+    "win10-x64": {}
+  },
+
+  "settings": {
+    "jssServer": "sma-jss.iam.local:8443",
+    "jssUsername": "JSONweb",
+    "jssPassword": "webpass1",
+    "groupName": "All CMI",
+    "outFile": "outfile.csv"
+  }
+}
