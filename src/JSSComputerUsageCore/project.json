@@ -29,7 +29,7 @@
   "settings": {
     "jssServer": "sma-jss.iam.local:8443",
     "jssUsername": "JSONweb",
-    "jssPassword": "webpass1",
+    "jssPassword": "password",
     "groupName": "All CMI",
     "outFile": "outfile.csv"
   }
