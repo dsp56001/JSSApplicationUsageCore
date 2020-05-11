@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "jssServer": "manage.colum.edu:8443",
+    "jssUsername": "userame",
+    "jssPassword": "password",
+    "groupName": "All Managed Clients",
+    "outFile": "outfile.csv"
+  }
+}
